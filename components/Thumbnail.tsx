@@ -2,7 +2,8 @@ import Image from "next/image"
 import { Movie } from "../typings"
 
 interface Props{
-    movie: Movie
+    movie: Movie 
+    // movie: Movie | DocumentData firebase
 }
 
 function Thumbnail({movie}: Props) {
